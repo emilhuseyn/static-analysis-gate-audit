@@ -1,0 +1,415 @@
+{
+  "seed": 20260808,
+  "unlabelled": {
+    "projects": [
+      "commons-exec",
+      "commons-ognl",
+      "hive"
+    ],
+    "share_commits": 0.1045299777942265,
+    "share_violations": 0.5094540946357045,
+    "share_critical": 0.5316007010751563
+  },
+  "severity": {
+    "BLOCKER": {
+      "all31": {
+        "flagged": 752,
+        "tp": 207,
+        "precision": 0.2752659574468085,
+        "recall": 0.02119815668202765,
+        "alerts_per_1000": 11.132494448556624,
+        "base_rate": 0.14455958549222797,
+        "lift": 1.9041695264241592
+      },
+      "labelled28": {
+        "flagged": 425,
+        "tp": 207,
+        "precision": 0.48705882352941177,
+        "recall": 0.02119815668202765,
+        "alerts_per_1000": 7.02607085585809,
+        "base_rate": 0.1614343103704806,
+        "lift": 3.017071293033342
+      }
+    },
+    "INFO": {
+      "all31": {
+        "flagged": 2891,
+        "tp": 949,
+        "precision": 0.3282601176063646,
+        "recall": 0.09718381976446493,
+        "alerts_per_1000": 42.7979274611399,
+        "base_rate": 0.14455958549222797,
+        "lift": 2.27075995333435
+      },
+      "labelled28": {
+        "flagged": 2366,
+        "tp": 949,
+        "precision": 0.4010989010989011,
+        "recall": 0.09718381976446493,
+        "alerts_per_1000": 39.11454975284762,
+        "base_rate": 0.1614343103704806,
+        "lift": 2.4845951283739303
+      }
+    },
+    "CRITICAL_OR_BLOCKER": {
+      "all31": {
+        "flagged": 5197,
+        "tp": 1595,
+        "precision": 0.3069078314412161,
+        "recall": 0.1633384536610343,
+        "alerts_per_1000": 76.93560325684678,
+        "base_rate": 0.14455958549222797,
+        "lift": 2.123054174485832
+      },
+      "labelled28": {
+        "flagged": 4070,
+        "tp": 1595,
+        "precision": 0.3918918918918919,
+        "recall": 0.1633384536610343,
+        "alerts_per_1000": 67.28496090198217,
+        "base_rate": 0.1614343103704806,
+        "lift": 2.4275625856271015
+      }
+    },
+    "any": {
+      "all31": {
+        "flagged": 18236,
+        "tp": 4485,
+        "precision": 0.2459420925641588,
+        "recall": 0.4592933947772657,
+        "alerts_per_1000": 269.96299037749816,
+        "base_rate": 0.14455958549222797,
+        "lift": 1.7013198517879087
+      },
+      "labelled28": {
+        "flagged": 15031,
+        "tp": 4485,
+        "precision": 0.2983833410950702,
+        "recall": 0.4592933947772657,
+        "alerts_per_1000": 248.4914612574187,
+        "base_rate": 0.1614343103704806,
+        "lift": 1.8483266686635638
+      }
+    }
+  },
+  "severity_reverses_on_labelled": true,
+  "budget_labelled": [
+    {
+      "budget_per_1000": 5,
+      "violations": 0.013927291346646185,
+      "churn": 0.013210445468509985,
+      "winner": "violations"
+    },
+    {
+      "budget_per_1000": 10,
+      "violations": 0.029200497403262384,
+      "churn": 0.026728110599078342,
+      "winner": "violations"
+    },
+    {
+      "budget_per_1000": 25,
+      "violations": 0.07451783580815838,
+      "churn": 0.06967059225123742,
+      "winner": "violations"
+    },
+    {
+      "budget_per_1000": 50,
+      "violations": 0.1344025271854687,
+      "churn": 0.13192524321556579,
+      "winner": "violations"
+    },
+    {
+      "budget_per_1000": 100,
+      "violations": 0.24171546979006656,
+      "churn": 0.24553678102065196,
+      "winner": "churn"
+    },
+    {
+      "budget_per_1000": 200,
+      "violations": 0.3965001633554307,
+      "churn": 0.4207753167170441,
+      "winner": "churn"
+    },
+    {
+      "budget_per_1000": 300,
+      "violations": 0.4963570971371153,
+      "churn": 0.5594113032408385,
+      "winner": "churn"
+    },
+    {
+      "budget_per_1000": 500,
+      "violations": 0.6402465732112809,
+      "churn": 0.770249806625922,
+      "winner": "churn"
+    }
+  ],
+  "churn_strata": {
+    "pooled": {
+      "flagged": 15031,
+      "tp": 4485,
+      "precision": 0.2983833410950702,
+      "recall": 0.4592933947772657,
+      "alerts_per_1000": 248.4914612574187,
+      "base_rate": 0.1614343103704806,
+      "lift": 1.8483266686635638
+    },
+    "strata": [
+      {
+        "quintile": 1,
+        "n": 11369,
+        "flagged": 295,
+        "tp": 17,
+        "precision": 0.0576271186440678,
+        "recall": 0.03648068669527897,
+        "alerts_per_1000": 25.94775266074413,
+        "base_rate": 0.04098865335561615,
+        "lift": 1.4059285662326326
+      },
+      {
+        "quintile": 2,
+        "n": 12725,
+        "flagged": 832,
+        "tp": 88,
+        "precision": 0.10576923076923077,
+        "recall": 0.08445297504798464,
+        "alerts_per_1000": 65.38310412573674,
+        "base_rate": 0.0818860510805501,
+        "lift": 1.2916635907278902
+      },
+      {
+        "quintile": 3,
+        "n": 12092,
+        "flagged": 2133,
+        "tp": 373,
+        "precision": 0.1748710736052508,
+        "recall": 0.22827417380660955,
+        "alerts_per_1000": 176.39761826000662,
+        "base_rate": 0.13513066490241482,
+        "lift": 1.2940887527752098
+      },
+      {
+        "quintile": 4,
+        "n": 12179,
+        "flagged": 4497,
+        "tp": 1116,
+        "precision": 0.24816544362908605,
+        "recall": 0.4451535700039888,
+        "alerts_per_1000": 369.2421381065769,
+        "base_rate": 0.2058461285819854,
+        "lift": 1.2055871312160507
+      },
+      {
+        "quintile": 5,
+        "n": 12124,
+        "flagged": 7274,
+        "tp": 2891,
+        "precision": 0.3974429474841903,
+        "recall": 0.7023809523809523,
+        "alerts_per_1000": 599.9670075882547,
+        "base_rate": 0.3394919168591224,
+        "lift": 1.170699294290166
+      }
+    ],
+    "mean_within_lift": 1.27359346704839
+  },
+  "coverage": {
+    "per_project": [
+      {
+        "project": "felix",
+        "commits": 30470,
+        "analysed": 3490,
+        "coverage": 0.1145388907121759
+      },
+      {
+        "project": "cayenne",
+        "commits": 6733,
+        "analysed": 1259,
+        "coverage": 0.18698945492351107
+      },
+      {
+        "project": "zookeeper",
+        "commits": 2361,
+        "analysed": 608,
+        "coverage": 0.2575180008470987
+      },
+      {
+        "project": "batik",
+        "commits": 7015,
+        "analysed": 2178,
+        "coverage": 0.3104775481111903
+      },
+      {
+        "project": "thrift",
+        "commits": 6386,
+        "analysed": 2001,
+        "coverage": 0.31334168493579706
+      },
+      {
+        "project": "hive",
+        "commits": 15733,
+        "analysed": 5836,
+        "coverage": 0.3709400622894553
+      },
+      {
+        "project": "cocoon",
+        "commits": 26321,
+        "analysed": 10221,
+        "coverage": 0.3883211124197409
+      },
+      {
+        "project": "santuario",
+        "commits": 5746,
+        "analysed": 2720,
+        "coverage": 0.47337278106508873
+      },
+      {
+        "project": "archiva",
+        "commits": 8695,
+        "analysed": 4693,
+        "coverage": 0.539735480161012
+      },
+      {
+        "project": "commons-io",
+        "commits": 3374,
+        "analysed": 1910,
+        "coverage": 0.5660936573799644
+      },
+      {
+        "project": "httpcomponents-core",
+        "commits": 3604,
+        "analysed": 2110,
+        "coverage": 0.5854605993340732
+      },
+      {
+        "project": "commons-dbcp",
+        "commits": 2465,
+        "analysed": 1556,
+        "coverage": 0.631237322515213
+      },
+      {
+        "project": "commons-vfs",
+        "commits": 3074,
+        "analysed": 2080,
+        "coverage": 0.6766428106701367
+      },
+      {
+        "project": "commons-fileupload",
+        "commits": 1180,
+        "analysed": 865,
+        "coverage": 0.7330508474576272
+      },
+      {
+        "project": "commons-bcel",
+        "commits": 1753,
+        "analysed": 1324,
+        "coverage": 0.7552766685681689
+      },
+      {
+        "project": "commons-dbutils",
+        "commits": 789,
+        "analysed": 603,
+        "coverage": 0.7642585551330798
+      },
+      {
+        "project": "commons-collections",
+        "commits": 3616,
+        "analysed": 2816,
+        "coverage": 0.7787610619469026
+      },
+      {
+        "project": "commons-daemon",
+        "commits": 1251,
+        "analysed": 982,
+        "coverage": 0.7849720223820943
+      },
+      {
+        "project": "commons-jexl",
+        "commits": 1927,
+        "analysed": 1533,
+        "coverage": 0.7955371043072132
+      },
+      {
+        "project": "commons-codec",
+        "commits": 2144,
+        "analysed": 1731,
+        "coverage": 0.8073694029850746
+      },
+      {
+        "project": "commons-ognl",
+        "commits": 745,
+        "analysed": 608,
+        "coverage": 0.8161073825503355
+      },
+      {
+        "project": "httpcomponents-client",
+        "commits": 3290,
+        "analysed": 2714,
+        "coverage": 0.8249240121580547
+      },
+      {
+        "project": "commons-cli",
+        "commits": 1021,
+        "analysed": 847,
+        "coverage": 0.8295788442703232
+      },
+      {
+        "project": "commons-net",
+        "commits": 2497,
+        "analysed": 2090,
+        "coverage": 0.8370044052863436
+      },
+      {
+        "project": "commons-configuration",
+        "commits": 3413,
+        "analysed": 2930,
+        "coverage": 0.8584822736595371
+      },
+      {
+        "project": "commons-beanutils",
+        "commits": 1405,
+        "analysed": 1210,
+        "coverage": 0.8612099644128114
+      },
+      {
+        "project": "commons-validator",
+        "commits": 1548,
+        "analysed": 1340,
+        "coverage": 0.8656330749354005
+      },
+      {
+        "project": "commons-exec",
+        "commits": 700,
+        "analysed": 617,
+        "coverage": 0.8814285714285715
+      },
+      {
+        "project": "commons-digester",
+        "commits": 2192,
+        "analysed": 2143,
+        "coverage": 0.9776459854014599
+      },
+      {
+        "project": "commons-jxpath",
+        "commits": 601,
+        "analysed": 597,
+        "coverage": 0.9933444259567388
+      },
+      {
+        "project": "commons-jelly",
+        "commits": 1945,
+        "analysed": 1938,
+        "coverage": 0.996401028277635
+      }
+    ],
+    "min": 0.1145388907121759,
+    "max": 0.996401028277635,
+    "median": 0.7642585551330798
+  },
+  "selection": {
+    "not_analysed": 86444,
+    "not_analysed_base": 0.08746703067882097,
+    "analysed": 67550,
+    "analysed_base": 0.14455958549222797,
+    "ratio": 1.6527322851858424
+  }
+}

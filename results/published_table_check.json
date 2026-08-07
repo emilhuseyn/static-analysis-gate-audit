@@ -1,0 +1,80 @@
+{
+  "column_sums": {
+    "computed": {
+      "commits": 77932,
+      "faults": 42193,
+      "occurrences": 1941508
+    },
+    "printed": {
+      "commits": 77932,
+      "faults": 40470,
+      "occurrences": 1941508
+    }
+  },
+  "faults_sum_gap": {
+    "gap": 1723,
+    "rows_matching_gap": [
+      "Beam"
+    ]
+  },
+  "table2_fault_share": 0.5414078940614895,
+  "abstract_fault_share": 0.5826236559139785,
+  "after_exclusion": {
+    "projects": 29,
+    "commits": 68547,
+    "faults": 37681,
+    "share": 0.5497104176696281,
+    "commits_removed_by_exclusion": 9385,
+    "undocumented_further_reduction": 10422
+  },
+  "faults_exceed_commits": [
+    {
+      "project": "Ambari",
+      "commits": 13397,
+      "faults": 17722,
+      "ratio": 1.322833470179891
+    },
+    {
+      "project": "MINA Sshd",
+      "commits": 1370,
+      "faults": 1588,
+      "ratio": 1.159124087591241
+    },
+    {
+      "project": "Ognl",
+      "commits": 608,
+      "faults": 3415,
+      "ratio": 5.6167763157894735
+    },
+    {
+      "project": "Zookeeper",
+      "commits": 411,
+      "faults": 1859,
+      "ratio": 4.523114355231144
+    }
+  ],
+  "occurrence_concentration": [
+    {
+      "project": "Accumulo",
+      "occurrences": 1429757,
+      "share_of_occurrences": 0.7364157139707898,
+      "share_of_commits": 0.03388851819534979
+    },
+    {
+      "project": "Bcel",
+      "occurrences": 85018,
+      "share_of_occurrences": 0.04378967276982634,
+      "share_of_commits": 0.1310116511830827
+    },
+    {
+      "project": "Codec",
+      "occurrences": 58073,
+      "share_of_occurrences": 0.029911285454399365,
+      "share_of_commits": 0.011497202689524201
+    }
+  ],
+  "occurrence_text_vs_table": {
+    "text": 1914508,
+    "table": 1941508
+  }
+}

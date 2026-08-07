@@ -1,0 +1,83 @@
+{
+  "seed": 20260808,
+  "commits": 67550,
+  "positives": 9765,
+  "base_rate": 0.14455958549222797,
+  "commits_with_churn": 65737,
+  "budgets": [
+    {
+      "budget_per_1000": 5,
+      "reviewed": 338,
+      "violations": 0.005837173579109063,
+      "critical only": 0.007820626835906971,
+      "churn (no static analysis)": 0.008499743983614952,
+      "random": 0.005837173579109063
+    },
+    {
+      "budget_per_1000": 10,
+      "reviewed": 676,
+      "violations": 0.013927291346646185,
+      "critical only": 0.01731919623343699,
+      "churn (no static analysis)": 0.016589861751152075,
+      "random": 0.011367127496159755
+    },
+    {
+      "budget_per_1000": 25,
+      "reviewed": 1689,
+      "violations": 0.04393780149297976,
+      "critical only": 0.05483124789333251,
+      "churn (no static analysis)": 0.04874551971326165,
+      "random": 0.027649769585253458
+    },
+    {
+      "budget_per_1000": 50,
+      "reviewed": 3378,
+      "violations": 0.10077577795167571,
+      "critical only": 0.11145499616777144,
+      "churn (no static analysis)": 0.10783410138248847,
+      "random": 0.05069124423963134
+    },
+    {
+      "budget_per_1000": 100,
+      "reviewed": 6755,
+      "violations": 0.2000433341418061,
+      "critical only": 0.18424392235052975,
+      "churn (no static analysis)": 0.21474654377880184,
+      "random": 0.10066564260112647
+    },
+    {
+      "budget_per_1000": 200,
+      "reviewed": 13510,
+      "violations": 0.3660960675036921,
+      "critical only": 0.27488348653380423,
+      "churn (no static analysis)": 0.39424906351901257,
+      "random": 0.2050179211469534
+    },
+    {
+      "budget_per_1000": 300,
+      "reviewed": 20265,
+      "violations": 0.4815404990883524,
+      "critical only": 0.3655230507170787,
+      "churn (no static analysis)": 0.5356795812709791,
+      "random": 0.3057859703020993
+    },
+    {
+      "budget_per_1000": 500,
+      "reviewed": 33775,
+      "violations": 0.6296717850631088,
+      "critical only": 0.5468021790836276,
+      "churn (no static analysis)": 0.7553452807646356,
+      "random": 0.50189452124936
+    }
+  ],
+  "churn_beats_violations_at": [
+    5,
+    10,
+    25,
+    50,
+    100,
+    200,
+    300,
+    500
+  ]
+}

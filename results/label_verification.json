@@ -1,0 +1,196 @@
+{
+  "szz_per_project": [
+    {
+      "project": "commons-exec",
+      "szz_rows": 1,
+      "inducing": 0,
+      "fixing": 0
+    },
+    {
+      "project": "commons-ognl",
+      "szz_rows": 1,
+      "inducing": 0,
+      "fixing": 0
+    },
+    {
+      "project": "hive",
+      "szz_rows": 1,
+      "inducing": 0,
+      "fixing": 0
+    },
+    {
+      "project": "commons-dbutils",
+      "szz_rows": 76,
+      "inducing": 45,
+      "fixing": 18
+    },
+    {
+      "project": "commons-digester",
+      "szz_rows": 129,
+      "inducing": 112,
+      "fixing": 14
+    },
+    {
+      "project": "commons-bcel",
+      "szz_rows": 162,
+      "inducing": 95,
+      "fixing": 40
+    },
+    {
+      "project": "commons-fileupload",
+      "szz_rows": 203,
+      "inducing": 119,
+      "fixing": 29
+    },
+    {
+      "project": "commons-jxpath",
+      "szz_rows": 237,
+      "inducing": 80,
+      "fixing": 36
+    },
+    {
+      "project": "commons-cli",
+      "szz_rows": 246,
+      "inducing": 101,
+      "fixing": 40
+    },
+    {
+      "project": "commons-validator",
+      "szz_rows": 279,
+      "inducing": 141,
+      "fixing": 57
+    },
+    {
+      "project": "commons-jelly",
+      "szz_rows": 286,
+      "inducing": 208,
+      "fixing": 30
+    },
+    {
+      "project": "commons-beanutils",
+      "szz_rows": 296,
+      "inducing": 202,
+      "fixing": 54
+    },
+    {
+      "project": "commons-codec",
+      "szz_rows": 400,
+      "inducing": 279,
+      "fixing": 46
+    },
+    {
+      "project": "cocoon",
+      "szz_rows": 401,
+      "inducing": 312,
+      "fixing": 118
+    },
+    {
+      "project": "commons-daemon",
+      "szz_rows": 421,
+      "inducing": 193,
+      "fixing": 76
+    },
+    {
+      "project": "commons-collections",
+      "szz_rows": 437,
+      "inducing": 319,
+      "fixing": 87
+    },
+    {
+      "project": "santuario",
+      "szz_rows": 449,
+      "inducing": 251,
+      "fixing": 49
+    },
+    {
+      "project": "commons-net",
+      "szz_rows": 743,
+      "inducing": 317,
+      "fixing": 151
+    },
+    {
+      "project": "batik",
+      "szz_rows": 775,
+      "inducing": 492,
+      "fixing": 33
+    },
+    {
+      "project": "commons-dbcp",
+      "szz_rows": 808,
+      "inducing": 407,
+      "fixing": 108
+    },
+    {
+      "project": "httpcomponents-core",
+      "szz_rows": 853,
+      "inducing": 493,
+      "fixing": 186
+    },
+    {
+      "project": "commons-configuration",
+      "szz_rows": 902,
+      "inducing": 361,
+      "fixing": 126
+    },
+    {
+      "project": "commons-vfs",
+      "szz_rows": 963,
+      "inducing": 507,
+      "fixing": 136
+    },
+    {
+      "project": "commons-jexl",
+      "szz_rows": 1053,
+      "inducing": 339,
+      "fixing": 94
+    },
+    {
+      "project": "commons-io",
+      "szz_rows": 1452,
+      "inducing": 597,
+      "fixing": 126
+    },
+    {
+      "project": "httpcomponents-client",
+      "szz_rows": 2114,
+      "inducing": 925,
+      "fixing": 339
+    },
+    {
+      "project": "archiva",
+      "szz_rows": 2862,
+      "inducing": 1297,
+      "fixing": 402
+    },
+    {
+      "project": "cayenne",
+      "szz_rows": 2990,
+      "inducing": 1423,
+      "fixing": 373
+    },
+    {
+      "project": "zookeeper",
+      "szz_rows": 7377,
+      "inducing": 1103,
+      "fixing": 859
+    },
+    {
+      "project": "thrift",
+      "szz_rows": 9331,
+      "inducing": 2510,
+      "fixing": 1541
+    },
+    {
+      "project": "felix",
+      "szz_rows": 16183,
+      "inducing": 4098,
+      "fixing": 1955
+    }
+  ],
+  "projects_without_szz": [],
+  "empty_project_detail": [],
+  "project_id_mismatch": {
+    "joined": 52428,
+    "mismatched": 0
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "stratum_measures": [
+    {
+      "quintile": 1,
+      "base": 0.04098865335561615,
+      "flag_rate": 0.025947752660744127,
+      "lift": 1.4059285662326326,
+      "max_attainable_lift": 24.396995708154506,
+      "odds_ratio": 1.4470606143147842,
+      "phi": 0.013697090192537228,
+      "risk_difference": 0.017081696935561386
+    },
+    {
+      "quintile": 2,
+      "base": 0.0818860510805501,
+      "flag_rate": 0.06538310412573674,
+      "lift": 1.2916635907278902,
+      "max_attainable_lift": 12.212092130518235,
+      "odds_ratio": 1.3562476048781587,
+      "phi": 0.0230385341398914,
+      "risk_difference": 0.025553978099593172
+    },
+    {
+      "quintile": 3,
+      "base": 0.13513066490241482,
+      "flag_rate": 0.1763976182600066,
+      "lift": 1.2940887527752098,
+      "max_attainable_lift": 5.6690107829348335,
+      "odds_ratio": 1.4618421526926682,
+      "phi": 0.0537981924799076,
+      "risk_difference": 0.048251935137533175
+    },
+    {
+      "quintile": 4,
+      "base": 0.2058461285819854,
+      "flag_rate": 0.3692421381065769,
+      "lift": 1.2055871312160507,
+      "max_attainable_lift": 2.7082499444073824,
+      "odds_ratio": 1.4928342105447812,
+      "phi": 0.08008279861409198,
+      "risk_difference": 0.06709280629505845
+    },
+    {
+      "quintile": 5,
+      "base": 0.3394919168591224,
+      "flag_rate": 0.5999670075882547,
+      "lift": 1.170699294290166,
+      "max_attainable_lift": 1.6667583172944733,
+      "odds_ratio": 1.9518594569929273,
+      "phi": 0.1498729154061527,
+      "risk_difference": 0.14486562789656143
+    }
+  ],
+  "lift_monotone_down": false,
+  "odds_ratio_monotone_up": false,
+  "phi_monotone_up": true,
+  "estimators": {
+    "5": {
+      "unweighted_mean_lift": 1.27359346704839,
+      "standardised_lift": 1.1916753944407108,
+      "share_unweighted": 0.6774904324540411,
+      "share_standardised": 0.7740547344306973
+    },
+    "10": {
+      "unweighted_mean_lift": 1.5582870613879902,
+      "standardised_lift": 1.1755622828012495,
+      "share_unweighted": 0.3418961326920158,
+      "share_standardised": 0.7930487284128098
+    },
+    "20": {
+      "unweighted_mean_lift": 5.364913771617904,
+      "standardised_lift": 1.1732660215626285,
+      "share_unweighted": -4.145321882305431,
+      "share_standardised": 0.7957555409220033
+    },
+    "50": {
+      "unweighted_mean_lift": 3.171633294083675,
+      "standardised_lift": 1.1720895326833565,
+      "share_unweighted": -1.5599021866244298,
+      "share_standardised": 0.7971423756434974
+    }
+  },
+  "cluster_bootstrap": {
+    "point": 1.1916753944407108,
+    "lo": 1.0507620192657272,
+    "hi": 1.3128235672673734,
+    "contains_one": false
+  },
+  "headline_policies": {
+    "any violation": {
+      "crude": 1.8483266686635638,
+      "standardised": 1.1916753944407108
+    },
+    "severity BLOCKER": {
+      "crude": 3.017071293033342,
+      "standardised": 1.5965124803151618
+    }
+  }
+}

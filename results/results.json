@@ -1,0 +1,361 @@
+{
+  "corpus": {
+    "commits_total": 153994,
+    "gateable_commits": 67550,
+    "gateable_share": 0.4386534540306765,
+    "fault_inducing_gateable": 9765,
+    "base_rate_pooled": 0.11251087704715768,
+    "base_rate_gateable": 0.14455958549222797,
+    "projects": 31,
+    "base_rate_min": 0.0,
+    "base_rate_median": 0.12695234281137366,
+    "base_rate_max": 0.4671749258788649
+  },
+  "ceiling": {
+    "fault_inducing": 9765,
+    "visible": 4485,
+    "invisible": 5280,
+    "max_recall": 0.4592933947772657
+  },
+  "policies": {
+    "any violation": {
+      "precision": 0.2459420925641588,
+      "recall": 0.4592933947772657,
+      "alerts_per_1000_commits": 269.96299037749816,
+      "flagged": 18236,
+      "lift_over_base": 1.7013198517879087
+    },
+    "severity = BLOCKER": {
+      "precision": 0.2752659574468085,
+      "recall": 0.02119815668202765,
+      "alerts_per_1000_commits": 11.132494448556624,
+      "flagged": 752,
+      "lift_over_base": 1.9041695264241592
+    },
+    "severity = CRITICAL": {
+      "precision": 0.31011146496815284,
+      "recall": 0.1595494111623144,
+      "alerts_per_1000_commits": 74.37453737971873,
+      "flagged": 5024,
+      "lift_over_base": 2.145215510353172
+    },
+    "severity = MAJOR": {
+      "precision": 0.25457678225285374,
+      "recall": 0.3631336405529954,
+      "alerts_per_1000_commits": 206.20281273131013,
+      "flagged": 13929,
+      "lift_over_base": 1.7610508593118557
+    },
+    "severity = MINOR": {
+      "precision": 0.27341311134235174,
+      "recall": 0.3228878648233487,
+      "alerts_per_1000_commits": 170.7179866765359,
+      "flagged": 11532,
+      "lift_over_base": 1.891352347278634
+    },
+    "severity = INFO": {
+      "precision": 0.3282601176063646,
+      "recall": 0.09718381976446493,
+      "alerts_per_1000_commits": 42.7979274611399,
+      "flagged": 2891,
+      "lift_over_base": 2.27075995333435
+    },
+    "type = BUG": {
+      "precision": 0.24277067921990586,
+      "recall": 0.03696876600102406,
+      "alerts_per_1000_commits": 22.013323464100665,
+      "flagged": 1487,
+      "lift_over_base": 1.6793814010552628
+    },
+    "type = VULNERABILITY": {
+      "precision": 0.27586206896551724,
+      "recall": 0.045878136200716846,
+      "alerts_per_1000_commits": 24.041450777202073,
+      "flagged": 1624,
+      "lift_over_base": 1.9082931652453343
+    },
+    "type = CODE_SMELL": {
+      "precision": 0.2466504263093788,
+      "recall": 0.45622119815668205,
+      "alerts_per_1000_commits": 267.38712065136934,
+      "flagged": 18062,
+      "lift_over_base": 1.706219794900004
+    },
+    "BUG at blocker or critical": {
+      "precision": 0.24346257889990983,
+      "recall": 0.027649769585253458,
+      "alerts_per_1000_commits": 16.417468541820874,
+      "flagged": 1109,
+      "lift_over_base": 1.6841676604904157
+    }
+  },
+  "rules": {
+    "defined": 1819,
+    "ever_fire": 293,
+    "tested": 116,
+    "min_flags": 50,
+    "significant": 111,
+    "useful": 8,
+    "bh_threshold": 0.005829949166313764,
+    "best": {
+      "rule": "squid:RightCurlyBraceStartLineCheck",
+      "flags": 68,
+      "hits": 37,
+      "precision": 0.5441176470588235,
+      "alerts_per_1000": 1.1241713369372943,
+      "lift": 3.370520466251016,
+      "p": 5.4898593039685e-13,
+      "significant": true
+    },
+    "weakest_significant": {
+      "rule": "squid:S1134",
+      "flags": 474,
+      "hits": 102,
+      "precision": 0.21518987341772153,
+      "alerts_per_1000": 7.836135495709963,
+      "lift": 1.3329872251064574,
+      "p": 0.0012982416107632383,
+      "significant": true
+    },
+    "top_by_volume": [
+      {
+        "rule": "squid:S1166",
+        "flags": 3314,
+        "hits": 1360,
+        "precision": 0.4103802051901026,
+        "alerts_per_1000": 54.78682074426755,
+        "lift": 2.5420878885554647,
+        "p": 1.3296900336304556e-254,
+        "significant": true
+      },
+      {
+        "rule": "common-java:DuplicatedBlocks",
+        "flags": 3238,
+        "hits": 1149,
+        "precision": 0.3548486720197653,
+        "alerts_per_1000": 53.530393955925874,
+        "lift": 2.198099469718749,
+        "p": 1.6831070293958257e-157,
+        "significant": true
+      },
+      {
+        "rule": "squid:S1192",
+        "flags": 3123,
+        "hits": 1329,
+        "precision": 0.425552353506244,
+        "alerts_per_1000": 51.6292218419878,
+        "lift": 2.6360713068345305,
+        "p": 3.6996356864513357e-267,
+        "significant": true
+      },
+      {
+        "rule": "code_smells:long_method",
+        "flags": 2441,
+        "hits": 904,
+        "precision": 0.37034002458009013,
+        "alerts_per_1000": 40.35444460976376,
+        "lift": 2.2940601891269914,
+        "p": 4.557228215394689e-137,
+        "significant": true
+      }
+    ]
+  },
+  "certification": {
+    "permutation": {
+      "observed_precision": 0.2983833410950702,
+      "null_mean": 0.1615582130264121,
+      "null_sd": 0.0025557569174264137,
+      "null_max": 0.17071385802674474,
+      "p_value": 0.0004997501249375312
+    },
+    "bootstrap": {
+      "precision": {
+        "point": 0.2983833410950702,
+        "lo": 0.29087344685629885,
+        "hi": 0.3053407969175023
+      },
+      "recall": {
+        "point": 0.4592933947772657,
+        "lo": 0.4490811171096874,
+        "hi": 0.46919669675547143
+      },
+      "lift": {
+        "point": 1.8483266686635638,
+        "lo": 1.8118002350393267,
+        "hi": 1.884809288994029
+      }
+    },
+    "transfer": {
+      "n_projects": 28,
+      "lift_min": 0.9102706711160549,
+      "lift_median": 1.9494480120714461,
+      "lift_max": 4.35064935064935,
+      "projects_no_better": [
+        "commons-daemon"
+      ]
+    },
+    "time": {
+      "early": {
+        "n": 30239,
+        "base_rate": 0.18565428750950758,
+        "precision": 0.3266046174301946,
+        "recall": 0.48129675810473815,
+        "lift": 1.7592085903939534
+      },
+      "late": {
+        "n": 30250,
+        "base_rate": 0.13722314049586776,
+        "precision": 0.26383545427641314,
+        "recall": 0.42953505179474827,
+        "lift": 1.9226746547486144
+      }
+    },
+    "concentration_top1": {
+      "project": "cocoon",
+      "share_violations": 0.15556718144775894,
+      "share_commits": 0.16897287110053066
+    },
+    "concentration_top3": 0.4109059811861764
+  },
+  "budget": {
+    "rows": [
+      {
+        "budget_per_1000": 5,
+        "reviewed": 338,
+        "violations": 0.005837173579109063,
+        "critical only": 0.007820626835906971,
+        "churn (no static analysis)": 0.008499743983614952,
+        "random": 0.005837173579109063
+      },
+      {
+        "budget_per_1000": 10,
+        "reviewed": 676,
+        "violations": 0.013927291346646185,
+        "critical only": 0.01731919623343699,
+        "churn (no static analysis)": 0.016589861751152075,
+        "random": 0.011367127496159755
+      },
+      {
+        "budget_per_1000": 25,
+        "reviewed": 1689,
+        "violations": 0.04393780149297976,
+        "critical only": 0.05483124789333251,
+        "churn (no static analysis)": 0.04874551971326165,
+        "random": 0.027649769585253458
+      },
+      {
+        "budget_per_1000": 50,
+        "reviewed": 3378,
+        "violations": 0.10077577795167571,
+        "critical only": 0.11145499616777144,
+        "churn (no static analysis)": 0.10783410138248847,
+        "random": 0.05069124423963134
+      },
+      {
+        "budget_per_1000": 100,
+        "reviewed": 6755,
+        "violations": 0.2000433341418061,
+        "critical only": 0.18424392235052975,
+        "churn (no static analysis)": 0.21474654377880184,
+        "random": 0.10066564260112647
+      },
+      {
+        "budget_per_1000": 200,
+        "reviewed": 13510,
+        "violations": 0.3660960675036921,
+        "critical only": 0.27488348653380423,
+        "churn (no static analysis)": 0.39424906351901257,
+        "random": 0.2050179211469534
+      },
+      {
+        "budget_per_1000": 300,
+        "reviewed": 20265,
+        "violations": 0.4815404990883524,
+        "critical only": 0.3655230507170787,
+        "churn (no static analysis)": 0.5356795812709791,
+        "random": 0.3057859703020993
+      },
+      {
+        "budget_per_1000": 500,
+        "reviewed": 33775,
+        "violations": 0.6296717850631088,
+        "critical only": 0.5468021790836276,
+        "churn (no static analysis)": 0.7553452807646356,
+        "random": 0.50189452124936
+      }
+    ],
+    "churn_beats_violations_at": [
+      5,
+      10,
+      25,
+      50,
+      100,
+      200,
+      300,
+      500
+    ]
+  },
+  "published": {
+    "table2_commits": 77932,
+    "table2_faults_computed": 42193,
+    "table2_faults_printed": 40470,
+    "faults_sum_gap": {
+      "gap": 1723,
+      "rows_matching_gap": [
+        "Beam"
+      ]
+    },
+    "table2_fault_share": 0.5414078940614895,
+    "abstract_fault_share": 0.5826236559139785,
+    "after_exclusion": {
+      "projects": 29,
+      "commits": 68547,
+      "faults": 37681,
+      "share": 0.5497104176696281,
+      "commits_removed_by_exclusion": 9385,
+      "undocumented_further_reduction": 10422
+    },
+    "faults_exceed_commits": [
+      {
+        "project": "Ambari",
+        "commits": 13397,
+        "faults": 17722,
+        "ratio": 1.322833470179891
+      },
+      {
+        "project": "MINA Sshd",
+        "commits": 1370,
+        "faults": 1588,
+        "ratio": 1.159124087591241
+      },
+      {
+        "project": "Ognl",
+        "commits": 608,
+        "faults": 3415,
+        "ratio": 5.6167763157894735
+      },
+      {
+        "project": "Zookeeper",
+        "commits": 411,
+        "faults": 1859,
+        "ratio": 4.523114355231144
+      }
+    ],
+    "occurrence_concentration": {
+      "project": "Accumulo",
+      "occurrences": 1429757,
+      "share_of_occurrences": 0.7364157139707898,
+      "share_of_commits": 0.03388851819534979
+    },
+    "occurrence_text_vs_table": {
+      "text": 1914508,
+      "table": 1941508
+    }
+  },
+  "leaks": {
+    "issues": 1024614,
+    "with_close_date": 798745,
+    "gateable_introducing_none": 49314,
+    "gateable_introducing_none_share": 0.7300370096225018
+  }
+}

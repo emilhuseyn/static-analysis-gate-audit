@@ -1,0 +1,140 @@
+{
+  "ceiling": {
+    "fault_inducing": 9765,
+    "visible": 4485,
+    "invisible": 5280,
+    "max_recall": 0.4592933947772657
+  },
+  "policies": [
+    {
+      "policy": "any violation",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 18236,
+      "true_positives": 4485,
+      "false_positives": 13751,
+      "precision": 0.2459420925641588,
+      "recall": 0.4592933947772657,
+      "alerts_per_1000_commits": 269.96299037749816,
+      "lift_over_base": 1.7013198517879087
+    },
+    {
+      "policy": "severity = BLOCKER",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 752,
+      "true_positives": 207,
+      "false_positives": 545,
+      "precision": 0.2752659574468085,
+      "recall": 0.02119815668202765,
+      "alerts_per_1000_commits": 11.132494448556624,
+      "lift_over_base": 1.9041695264241592
+    },
+    {
+      "policy": "severity = CRITICAL",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 5024,
+      "true_positives": 1558,
+      "false_positives": 3466,
+      "precision": 0.31011146496815284,
+      "recall": 0.1595494111623144,
+      "alerts_per_1000_commits": 74.37453737971873,
+      "lift_over_base": 2.145215510353172
+    },
+    {
+      "policy": "severity = MAJOR",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 13929,
+      "true_positives": 3546,
+      "false_positives": 10383,
+      "precision": 0.25457678225285374,
+      "recall": 0.3631336405529954,
+      "alerts_per_1000_commits": 206.20281273131013,
+      "lift_over_base": 1.7610508593118557
+    },
+    {
+      "policy": "severity = MINOR",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 11532,
+      "true_positives": 3153,
+      "false_positives": 8379,
+      "precision": 0.27341311134235174,
+      "recall": 0.3228878648233487,
+      "alerts_per_1000_commits": 170.7179866765359,
+      "lift_over_base": 1.891352347278634
+    },
+    {
+      "policy": "severity = INFO",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 2891,
+      "true_positives": 949,
+      "false_positives": 1942,
+      "precision": 0.3282601176063646,
+      "recall": 0.09718381976446493,
+      "alerts_per_1000_commits": 42.7979274611399,
+      "lift_over_base": 2.27075995333435
+    },
+    {
+      "policy": "type = BUG",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 1487,
+      "true_positives": 361,
+      "false_positives": 1126,
+      "precision": 0.24277067921990586,
+      "recall": 0.03696876600102406,
+      "alerts_per_1000_commits": 22.013323464100665,
+      "lift_over_base": 1.6793814010552628
+    },
+    {
+      "policy": "type = VULNERABILITY",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 1624,
+      "true_positives": 448,
+      "false_positives": 1176,
+      "precision": 0.27586206896551724,
+      "recall": 0.045878136200716846,
+      "alerts_per_1000_commits": 24.041450777202073,
+      "lift_over_base": 1.9082931652453343
+    },
+    {
+      "policy": "type = CODE_SMELL",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 18062,
+      "true_positives": 4455,
+      "false_positives": 13607,
+      "precision": 0.2466504263093788,
+      "recall": 0.45622119815668205,
+      "alerts_per_1000_commits": 267.38712065136934,
+      "lift_over_base": 1.706219794900004
+    },
+    {
+      "policy": "BUG at blocker or critical",
+      "commits": 67550,
+      "positives": 9765,
+      "base_rate": 0.14455958549222797,
+      "flagged": 1109,
+      "true_positives": 270,
+      "false_positives": 839,
+      "precision": 0.24346257889990983,
+      "recall": 0.027649769585253458,
+      "alerts_per_1000_commits": 16.417468541820874,
+      "lift_over_base": 1.6841676604904157
+    }
+  ]
+}

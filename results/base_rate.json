@@ -1,0 +1,213 @@
+{
+  "pooled": {
+    "commits": 153994,
+    "fault_inducing": 17326,
+    "base_rate": 0.11251087704715768,
+    "szz_rows": 52428,
+    "szz_distinct": 17326
+  },
+  "coverage": {
+    "analyses": 67550,
+    "distinct_revisions": 67550,
+    "commits_with_analysis": 67550,
+    "share_of_commits": 0.4386534540306765
+  },
+  "gateable": {
+    "commits": 67550,
+    "fault_inducing": 9765,
+    "base_rate": 0.14455958549222797
+  },
+  "per_project": [
+    {
+      "project": "felix",
+      "commits": 30470,
+      "fault_inducing": 4098,
+      "base_rate": 0.13449294387922547
+    },
+    {
+      "project": "cocoon",
+      "commits": 26321,
+      "fault_inducing": 312,
+      "base_rate": 0.011853652976710611
+    },
+    {
+      "project": "hive",
+      "commits": 15733,
+      "fault_inducing": 0,
+      "base_rate": 0.0
+    },
+    {
+      "project": "archiva",
+      "commits": 8695,
+      "fault_inducing": 1297,
+      "base_rate": 0.1491661874640598
+    },
+    {
+      "project": "batik",
+      "commits": 7015,
+      "fault_inducing": 492,
+      "base_rate": 0.07013542409123308
+    },
+    {
+      "project": "cayenne",
+      "commits": 6733,
+      "fault_inducing": 1423,
+      "base_rate": 0.21134709639091045
+    },
+    {
+      "project": "thrift",
+      "commits": 6386,
+      "fault_inducing": 2510,
+      "base_rate": 0.39304729094895086
+    },
+    {
+      "project": "santuario",
+      "commits": 5746,
+      "fault_inducing": 251,
+      "base_rate": 0.043682561782109296
+    },
+    {
+      "project": "commons-collections",
+      "commits": 3616,
+      "fault_inducing": 319,
+      "base_rate": 0.08821902654867257
+    },
+    {
+      "project": "httpcomponents-core",
+      "commits": 3604,
+      "fault_inducing": 493,
+      "base_rate": 0.13679245283018868
+    },
+    {
+      "project": "commons-configuration",
+      "commits": 3413,
+      "fault_inducing": 361,
+      "base_rate": 0.10577204805156754
+    },
+    {
+      "project": "commons-io",
+      "commits": 3374,
+      "fault_inducing": 597,
+      "base_rate": 0.17694131594546533
+    },
+    {
+      "project": "httpcomponents-client",
+      "commits": 3290,
+      "fault_inducing": 925,
+      "base_rate": 0.2811550151975684
+    },
+    {
+      "project": "commons-vfs",
+      "commits": 3074,
+      "fault_inducing": 507,
+      "base_rate": 0.1649316851008458
+    },
+    {
+      "project": "commons-net",
+      "commits": 2497,
+      "fault_inducing": 317,
+      "base_rate": 0.12695234281137366
+    },
+    {
+      "project": "commons-dbcp",
+      "commits": 2465,
+      "fault_inducing": 407,
+      "base_rate": 0.16511156186612577
+    },
+    {
+      "project": "zookeeper",
+      "commits": 2361,
+      "fault_inducing": 1103,
+      "base_rate": 0.4671749258788649
+    },
+    {
+      "project": "commons-digester",
+      "commits": 2192,
+      "fault_inducing": 112,
+      "base_rate": 0.051094890510948905
+    },
+    {
+      "project": "commons-codec",
+      "commits": 2144,
+      "fault_inducing": 279,
+      "base_rate": 0.13013059701492538
+    },
+    {
+      "project": "commons-jelly",
+      "commits": 1945,
+      "fault_inducing": 208,
+      "base_rate": 0.10694087403598972
+    },
+    {
+      "project": "commons-jexl",
+      "commits": 1927,
+      "fault_inducing": 339,
+      "base_rate": 0.17592112091333678
+    },
+    {
+      "project": "commons-bcel",
+      "commits": 1753,
+      "fault_inducing": 95,
+      "base_rate": 0.05419281232173417
+    },
+    {
+      "project": "commons-validator",
+      "commits": 1548,
+      "fault_inducing": 141,
+      "base_rate": 0.09108527131782945
+    },
+    {
+      "project": "commons-beanutils",
+      "commits": 1405,
+      "fault_inducing": 202,
+      "base_rate": 0.14377224199288255
+    },
+    {
+      "project": "commons-daemon",
+      "commits": 1251,
+      "fault_inducing": 193,
+      "base_rate": 0.1542765787370104
+    },
+    {
+      "project": "commons-fileupload",
+      "commits": 1180,
+      "fault_inducing": 119,
+      "base_rate": 0.10084745762711865
+    },
+    {
+      "project": "commons-cli",
+      "commits": 1021,
+      "fault_inducing": 101,
+      "base_rate": 0.098922624877571
+    },
+    {
+      "project": "commons-dbutils",
+      "commits": 789,
+      "fault_inducing": 45,
+      "base_rate": 0.057034220532319393
+    },
+    {
+      "project": "commons-ognl",
+      "commits": 745,
+      "fault_inducing": 0,
+      "base_rate": 0.0
+    },
+    {
+      "project": "commons-exec",
+      "commits": 700,
+      "fault_inducing": 0,
+      "base_rate": 0.0
+    },
+    {
+      "project": "commons-jxpath",
+      "commits": 601,
+      "fault_inducing": 80,
+      "base_rate": 0.13311148086522462
+    }
+  ],
+  "spread": {
+    "min": 0.0,
+    "median": 0.12695234281137366,
+    "max": 0.4671749258788649
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "seed": 20260808,
+  "n_bootstrap": 2000,
+  "primary_population": {
+    "projects": 28,
+    "commits": 60489,
+    "excluded_projects": [
+      "commons-exec",
+      "commons-ognl",
+      "hive"
+    ],
+    "excluded_commits": 7061,
+    "excluded_share_of_violations": 0.5094540946357045
+  },
+  "policies": {
+    "any violation": {
+      "n": 60489,
+      "flagged": 15031,
+      "tp": 4485,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.2983833410950702,
+      "recall": 0.4592933947772657,
+      "alerts_per_1000": 248.4914612574187,
+      "lift": 1.8483266686635638
+    },
+    "severity BLOCKER": {
+      "n": 60489,
+      "flagged": 425,
+      "tp": 207,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.48705882352941177,
+      "recall": 0.02119815668202765,
+      "alerts_per_1000": 7.02607085585809,
+      "lift": 3.017071293033342
+    },
+    "severity CRITICAL": {
+      "n": 60489,
+      "flagged": 3948,
+      "tp": 1558,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.39463019250253295,
+      "recall": 0.1595494111623144,
+      "alerts_per_1000": 65.26806526806527,
+      "lift": 2.444524906736888
+    },
+    "severity MAJOR": {
+      "n": 60489,
+      "flagged": 11190,
+      "tp": 3546,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.31689008042895445,
+      "recall": 0.3631336405529954,
+      "alerts_per_1000": 184.99231265188712,
+      "lift": 1.9629661111179748
+    },
+    "severity MINOR": {
+      "n": 60489,
+      "flagged": 9323,
+      "tp": 3153,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.3381958597018127,
+      "recall": 0.3228878648233487,
+      "alerts_per_1000": 154.12719668038818,
+      "lift": 2.0949441226321506
+    },
+    "severity INFO": {
+      "n": 60489,
+      "flagged": 2366,
+      "tp": 949,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.4010989010989011,
+      "recall": 0.09718381976446493,
+      "alerts_per_1000": 39.11454975284762,
+      "lift": 2.4845951283739303
+    },
+    "type BUG": {
+      "n": 60489,
+      "flagged": 991,
+      "tp": 361,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.36427850655903127,
+      "recall": 0.03696876600102406,
+      "alerts_per_1000": 16.38314404271851,
+      "lift": 2.25651229731175
+    },
+    "type VULNERABILITY": {
+      "n": 60489,
+      "flagged": 1150,
+      "tp": 448,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.38956521739130434,
+      "recall": 0.045878136200716846,
+      "alerts_per_1000": 19.011721139380715,
+      "lift": 2.413150070126227
+    },
+    "type CODE_SMELL": {
+      "n": 60489,
+      "flagged": 14889,
+      "tp": 4455,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.2992141849687689,
+      "recall": 0.45622119815668205,
+      "alerts_per_1000": 246.14392699499084,
+      "lift": 1.853473306152162
+    }
+  },
+  "best_policy": "severity BLOCKER",
+  "size_conditional": {
+    "pooled": {
+      "n": 60489,
+      "flagged": 15031,
+      "tp": 4485,
+      "base_rate": 0.1614343103704806,
+      "precision": 0.2983833410950702,
+      "recall": 0.4592933947772657,
+      "alerts_per_1000": 248.4914612574187,
+      "lift": 1.8483266686635638
+    },
+    "strata": [
+      {
+        "n": 11369,
+        "flagged": 295,
+        "tp": 17,
+        "base_rate": 0.04098865335561615,
+        "precision": 0.0576271186440678,
+        "recall": 0.03648068669527897,
+        "alerts_per_1000": 25.94775266074413,
+        "lift": 1.4059285662326326,
+        "quintile": 1,
+        "churn_range": [
+          0.0,
+          3.0
+        ]
+      },
+      {
+        "n": 12725,
+        "flagged": 832,
+        "tp": 88,
+        "base_rate": 0.0818860510805501,
+        "precision": 0.10576923076923077,
+        "recall": 0.08445297504798464,
+        "alerts_per_1000": 65.38310412573674,
+        "lift": 1.2916635907278902,
+        "quintile": 2,
+        "churn_range": [
+          4.0,
+          10.0
+        ]
+      },
+      {
+        "n": 12092,
+        "flagged": 2133,
+        "tp": 373,
+        "base_rate": 0.13513066490241482,
+        "precision": 0.1748710736052508,
+        "recall": 0.22827417380660955,
+        "alerts_per_1000": 176.39761826000662,
+        "lift": 1.2940887527752098,
+        "quintile": 3,
+        "churn_range": [
+          11.0,
+          34.0
+        ]
+      },
+      {
+        "n": 12179,
+        "flagged": 4497,
+        "tp": 1116,
+        "base_rate": 0.2058461285819854,
+        "precision": 0.24816544362908605,
+        "recall": 0.4451535700039888,
+        "alerts_per_1000": 369.2421381065769,
+        "lift": 1.2055871312160507,
+        "quintile": 4,
+        "churn_range": [
+          35.0,
+          137.0
+        ]
+      },
+      {
+        "n": 12124,
+        "flagged": 7274,
+        "tp": 2891,
+        "base_rate": 0.3394919168591224,
+        "precision": 0.3974429474841903,
+        "recall": 0.7023809523809523,
+        "alerts_per_1000": 599.9670075882547,
+        "lift": 1.170699294290166,
+        "quintile": 5,
+        "churn_range": [
+          138.0,
+          416424.0
+        ]
+      }
+    ],
+    "mean_within_lift": 1.27359346704839,
+    "mean_within_ci": [
+      1.1396462548906117,
+      1.4154570857553903
+    ],
+    "share_unweighted": 0.6774904324540411,
+    "share_ci": [
+      0.5102628490863163,
+      0.835386225555531
+    ],
+    "standardised_lift_by_bins": {
+      "5": 1.1916753944407108,
+      "10": 1.1755622828012495,
+      "20": 1.1732660215626285,
+      "50": 1.1720895326833565
+    },
+    "standardised_lift": 1.1916753944407108,
+    "share_standardised": 0.7740547344306973,
+    "share_standardised_by_bins": {
+      "5": 0.7740547344306973,
+      "10": 0.7930487284128098,
+      "20": 0.7957555409220033,
+      "50": 0.7971423756434974
+    }
+  },
+  "budget_commits": [
+    {
+      "budget_per_1000": 5,
+      "violations": 0.013927291346646185,
+      "churn": 0.013210445468509985,
+      "random": 0.004710701484895033
+    },
+    {
+      "budget_per_1000": 10,
+      "violations": 0.02919406041986687,
+      "churn": 0.0267168458781362,
+      "random": 0.01187916026625704
+    },
+    {
+      "budget_per_1000": 25,
+      "violations": 0.07452551629970985,
+      "churn": 0.06968595323434032,
+      "random": 0.02529441884280594
+    },
+    {
+      "budget_per_1000": 50,
+      "violations": 0.1344176278129258,
+      "churn": 0.13193676395289297,
+      "random": 0.050281618023553507
+    },
+    {
+      "budget_per_1000": 100,
+      "violations": 0.24171214957757295,
+      "churn": 0.24553393639415141,
+      "random": 0.09943676395289298
+    },
+    {
+      "budget_per_1000": 200,
+      "violations": 0.39649588151216975,
+      "churn": 0.4207697008737591,
+      "random": 0.20049155145929332
+    },
+    {
+      "budget_per_1000": 300,
+      "violations": 0.4963535287447186,
+      "churn": 0.5594036932125124,
+      "random": 0.30384024577572966
+    },
+    {
+      "budget_per_1000": 500,
+      "violations": 0.6402525205319419,
+      "churn": 0.7702579773616149,
+      "random": 0.5005120327700973
+    }
+  ],
+  "budget_lines": [
+    {
+      "budget_per_1000_lines": 5,
+      "violations per line": 0.010256314021952933,
+      "violations, raw rank": 2.986681060933018e-05,
+      "churn, raw rank": 2.1544391385954854e-05,
+      "smallest commits first": 0.14023273234874756,
+      "random": 0.011274851742100737
+    },
+    {
+      "budget_per_1000_lines": 10,
+      "violations per line": 0.01977780610600849,
+      "violations, raw rank": 5.973362121866036e-05,
+      "churn, raw rank": 4.308878277190971e-05,
+      "smallest commits first": 0.2181881065614423,
+      "random": 0.019458752158476592
+    },
+    {
+      "budget_per_1000_lines": 25,
+      "violations per line": 0.05390606520360183,
+      "violations, raw rank": 0.0001362576544610303,
+      "churn, raw rank": 0.00010977525286969331,
+      "smallest commits first": 0.36479366318764433,
+      "random": 0.029902713773681516
+    },
+    {
+      "budget_per_1000_lines": 50,
+      "violations per line": 0.08194052369037153,
+      "violations, raw rank": 0.0006144393241167435,
+      "churn, raw rank": 0.00027331550203706426,
+      "smallest commits first": 0.5069091178733174,
+      "random": 0.04956477214541731
+    },
+    {
+      "budget_per_1000_lines": 100,
+      "violations per line": 0.13061765062785682,
+      "violations, raw rank": 0.0018092945274410645,
+      "churn, raw rank": 0.0005282394147904251,
+      "smallest commits first": 0.6628512701547593,
+      "random": 0.10486431131592422
+    },
+    {
+      "budget_per_1000_lines": 200,
+      "violations per line": 0.20862741189812922,
+      "violations, raw rank": 0.012701077412356813,
+      "churn, raw rank": 0.0013312852022529442,
+      "smallest commits first": 0.8310176609817115,
+      "random": 0.20112647209421403
+    },
+    {
+      "budget_per_1000_lines": 300,
+      "violations per line": 0.2731052902941344,
+      "violations, raw rank": 0.034562787876435096,
+      "churn, raw rank": 0.002457757296466974,
+      "smallest commits first": 0.9165204547072119,
+      "random": 0.30698507290811994
+    },
+    {
+      "budget_per_1000_lines": 500,
+      "violations per line": 0.44751664106502814,
+      "violations, raw rank": 0.2241407155692493,
+      "churn, raw rank": 0.015565796210957501,
+      "smallest commits first": 0.9844342037890425,
+      "random": 0.5025992856211808
+    }
+  ],
+  "best_per_line_budget": {
+    "5": "smallest commits first",
+    "10": "smallest commits first",
+    "25": "smallest commits first",
+    "50": "smallest commits first",
+    "100": "smallest commits first",
+    "200": "smallest commits first",
+    "300": "smallest commits first",
+    "500": "smallest commits first"
+  },
+  "density_wins_at": []
+}

@@ -1,0 +1,277 @@
+{
+  "named_rules": [
+    {
+      "rule": "squid:S1181",
+      "flags": 313,
+      "hits": 158,
+      "precision": 0.5047923322683706,
+      "ci_lo": 0.44798814905294554,
+      "ci_hi": 0.5615049768895203,
+      "projects": 25,
+      "top_project": "felix",
+      "top_project_share": 0.22364217252396165,
+      "per_project": [
+        {
+          "project": "felix",
+          "flags": 70,
+          "hits": 57,
+          "precision": 0.8142857142857143
+        },
+        {
+          "project": "cocoon",
+          "flags": 54,
+          "hits": 10,
+          "precision": 0.18518518518518517
+        },
+        {
+          "project": "commons-beanutils",
+          "flags": 43,
+          "hits": 18,
+          "precision": 0.4186046511627907
+        },
+        {
+          "project": "commons-digester",
+          "flags": 19,
+          "hits": 4,
+          "precision": 0.21052631578947367
+        },
+        {
+          "project": "archiva",
+          "flags": 13,
+          "hits": 7,
+          "precision": 0.5384615384615384
+        }
+      ]
+    },
+    {
+      "rule": "squid:S1151",
+      "flags": 351,
+      "hits": 176,
+      "precision": 0.5014245014245015,
+      "ci_lo": 0.44787219498832925,
+      "ci_hi": 0.5549525800616273,
+      "projects": 24,
+      "top_project": "batik",
+      "top_project_share": 0.245014245014245,
+      "per_project": [
+        {
+          "project": "batik",
+          "flags": 86,
+          "hits": 35,
+          "precision": 0.4069767441860465
+        },
+        {
+          "project": "felix",
+          "flags": 58,
+          "hits": 39,
+          "precision": 0.6724137931034483
+        },
+        {
+          "project": "cocoon",
+          "flags": 36,
+          "hits": 9,
+          "precision": 0.25
+        },
+        {
+          "project": "santuario",
+          "flags": 28,
+          "hits": 16,
+          "precision": 0.5714285714285714
+        },
+        {
+          "project": "commons-jexl",
+          "flags": 22,
+          "hits": 10,
+          "precision": 0.45454545454545453
+        }
+      ]
+    },
+    {
+      "rule": "squid:UnusedPrivateMethod",
+      "flags": 223,
+      "hits": 112,
+      "precision": 0.5022421524663677,
+      "ci_lo": 0.43472984540854265,
+      "ci_hi": 0.5696940680353807,
+      "projects": 23,
+      "top_project": "archiva",
+      "top_project_share": 0.26905829596412556,
+      "per_project": [
+        {
+          "project": "archiva",
+          "flags": 60,
+          "hits": 37,
+          "precision": 0.6166666666666667
+        },
+        {
+          "project": "felix",
+          "flags": 34,
+          "hits": 26,
+          "precision": 0.7647058823529411
+        },
+        {
+          "project": "cocoon",
+          "flags": 27,
+          "hits": 4,
+          "precision": 0.14814814814814814
+        },
+        {
+          "project": "santuario",
+          "flags": 24,
+          "hits": 5,
+          "precision": 0.20833333333333334
+        },
+        {
+          "project": "commons-jexl",
+          "flags": 12,
+          "hits": 2,
+          "precision": 0.16666666666666666
+        }
+      ]
+    },
+    {
+      "rule": "squid:RightCurlyBraceStartLineCheck",
+      "flags": 68,
+      "hits": 37,
+      "precision": 0.5441176470588235,
+      "ci_lo": 0.418785045895987,
+      "ci_hi": 0.6654842970710486,
+      "projects": 17,
+      "top_project": "felix",
+      "top_project_share": 0.27941176470588236,
+      "per_project": [
+        {
+          "project": "felix",
+          "flags": 19,
+          "hits": 12,
+          "precision": 0.631578947368421
+        },
+        {
+          "project": "cocoon",
+          "flags": 17,
+          "hits": 4,
+          "precision": 0.23529411764705882
+        },
+        {
+          "project": "batik",
+          "flags": 6,
+          "hits": 3,
+          "precision": 0.5
+        },
+        {
+          "project": "zookeeper",
+          "flags": 5,
+          "hits": 4,
+          "precision": 0.8
+        },
+        {
+          "project": "httpcomponents-client",
+          "flags": 4,
+          "hits": 1,
+          "precision": 0.25
+        }
+      ]
+    },
+    {
+      "rule": "squid:S1192",
+      "flags": 3123,
+      "hits": 1329,
+      "precision": 0.425552353506244,
+      "ci_lo": 0.40812825338549436,
+      "ci_hi": 0.4431160635146445,
+      "projects": 28,
+      "top_project": "archiva",
+      "top_project_share": 0.1408901697086135,
+      "per_project": [
+        {
+          "project": "archiva",
+          "flags": 440,
+          "hits": 239,
+          "precision": 0.5431818181818182
+        },
+        {
+          "project": "cocoon",
+          "flags": 358,
+          "hits": 42,
+          "precision": 0.11731843575418995
+        },
+        {
+          "project": "commons-configuration",
+          "flags": 267,
+          "hits": 91,
+          "precision": 0.3408239700374532
+        },
+        {
+          "project": "httpcomponents-client",
+          "flags": 267,
+          "hits": 155,
+          "precision": 0.5805243445692884
+        },
+        {
+          "project": "felix",
+          "flags": 234,
+          "hits": 175,
+          "precision": 0.7478632478632479
+        }
+      ]
+    },
+    {
+      "rule": "squid:S1166",
+      "flags": 3314,
+      "hits": 1360,
+      "precision": 0.4103802051901026,
+      "ci_lo": 0.3935670934674921,
+      "ci_hi": 0.4273516508026547,
+      "projects": 28,
+      "top_project": "cocoon",
+      "top_project_share": 0.1291490645745323,
+      "per_project": [
+        {
+          "project": "cocoon",
+          "flags": 428,
+          "hits": 35,
+          "precision": 0.08177570093457943
+        },
+        {
+          "project": "felix",
+          "flags": 353,
+          "hits": 233,
+          "precision": 0.660056657223796
+        },
+        {
+          "project": "archiva",
+          "flags": 346,
+          "hits": 214,
+          "precision": 0.6184971098265896
+        },
+        {
+          "project": "commons-collections",
+          "flags": 246,
+          "hits": 67,
+          "precision": 0.27235772357723576
+        },
+        {
+          "project": "httpcomponents-core",
+          "flags": 224,
+          "hits": 90,
+          "precision": 0.4017857142857143
+        }
+      ]
+    }
+  ],
+  "blocker": {
+    "flags": 425,
+    "tp": 207,
+    "precision": 0.48705882352941177,
+    "ci_lo": 0.438595863765362,
+    "ci_hi": 0.5357031345458112,
+    "projects_total": 28,
+    "projects_silent": [
+      "commons-cli",
+      "commons-codec",
+      "commons-validator"
+    ],
+    "months": 216.13009198423126,
+    "alerts_per_project_per_month": 0.078656330749354
+  }
+}

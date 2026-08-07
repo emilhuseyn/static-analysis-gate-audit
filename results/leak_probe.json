@@ -1,0 +1,45 @@
+{
+  "dates": {
+    "n": 1024614,
+    "has_create": 1024614,
+    "has_close": 798745,
+    "has_key": 1024614
+  },
+  "status": {
+    "CLOSED": 798745,
+    "OPEN": 225869
+  },
+  "resolution": {
+    "FIXED": 798745,
+    "(empty)": 225869
+  },
+  "mix_type": {
+    "CODE_SMELL": 966218,
+    "BUG": 33127,
+    "VULNERABILITY": 25269
+  },
+  "mix_severity": {
+    "MAJOR": 493553,
+    "MINOR": 418956,
+    "CRITICAL": 71345,
+    "INFO": 34742,
+    "BLOCKER": 6018
+  },
+  "introduced": {
+    "issues": 1013106,
+    "commits_with_any": 18236,
+    "median": 4,
+    "p90": 59,
+    "max": 18879
+  },
+  "gateable": {
+    "commits": 67550,
+    "introduce_none": 49314
+  },
+  "separation": {
+    "pos": 9765,
+    "neg": 57785,
+    "mean_pos": 23.79047619047619,
+    "mean_neg": 13.512018689971447
+  }
+}
